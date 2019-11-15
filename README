@@ -1,0 +1,17 @@
+1. Logger library file
+logger.hpp is the header-only library for the logger requested.
+
+2. Required installations
+A) Install GoogleTest with:
+sudo apt-get install googletest
+
+B) Install ThreadSanitizer with:
+sudo apt-get install libtsan0
+
+3. Use GoogleTest / logger_gtest.cpp
+A) Link with -lgtest -pthread
+B) Compile and build
+
+4. Use ThreadSanitizer(Data race detection test)
+A)Link with -pthread
+B) Compile and build
