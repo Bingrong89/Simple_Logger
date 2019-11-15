@@ -1,5 +1,5 @@
-1. Logger library file
-logger.hpp is the header-only library for the logger requested.
+1. Header-only library file for a simple thread-safe logger that can print to console and/or a text file.
+
 
 2. Required installations
 A) Install GoogleTest with:
